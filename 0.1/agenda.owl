@@ -59,7 +59,7 @@
 
 Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella. </rdfs:comment>
         <owl:versionInfo xml:lang="es">Esta es la versión inicial de la ontología que surge del trabajo del grupo de expertos dedicados al área de turismo en el contexto del grupo de AENOR</owl:versionInfo>
-        <dc:creator>Oscar Corchoo (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
+        <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:creator>Calixto Mellen (SEGITTUR)</dc:creator>
         <dc:creator>José Ignacio Sánchez (red.es)</dc:creator>
         <dc:creator>Antonio Ibáñez (Junta de Castilla y León)</dc:creator>
