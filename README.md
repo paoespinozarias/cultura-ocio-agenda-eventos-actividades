@@ -1,3 +1,17 @@
+# cultura-ocio-agenda-eventos-actividades
+Este repositorio contiene el material relacionado con el vocabulario sobre  la descripción de eventos pertenecientes a la agenda cultural de una ciudad española, que se identifica (y publica) en la siguiente URI:
+
+http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda
+
+La primera versión de este vocabulario fue publicada en marzo del año 2015. El historial de cambios, así como los issues que se generaron para esta primera versión, fueron gestionados en el repositorio general sobre datos abiertos que se encuentra en https://github.com/opencitydata/vocabularios-datos-abiertos, y que se encuentra en estado *deprecated*, dado que posterioremente se decidió crear un repositorio en GitHub por cada uno de los vocabularios con los que se estaba trabajando, por comodidad.
+
+Por tanto, se pretende con esto llevar un control de cambios entre versiones.
+
+### Lista de cambios:
+* [10/03/2018] Actualización de referencias a las URIs donde se encuentra publicada la última versión.
+
+A continuación se muestran también los datos originales obtenidos del grupo de trabajo OjoAlData100, que identificó este vocabulario como uno de los prioritarios.
+
 ### Núm
 13
 ### Clasificación NTI
