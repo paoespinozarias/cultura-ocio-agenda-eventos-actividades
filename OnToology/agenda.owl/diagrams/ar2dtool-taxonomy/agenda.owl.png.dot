@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "esagenda:Evento" "schema:Event" ; /*classes style*/
+	"esagenda:Evento" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"esagenda:Evento" -> "event:Event" [ label = "rdfs:subClassOf" ];
+
+}
