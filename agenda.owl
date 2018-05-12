@@ -54,7 +54,7 @@
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <rdfs:comment>Este vocabulario se utiliza para la descripción de eventos pertenecientes a la agenda cultural de una ciudad española. Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
 - schema.org (concretamente, conceptos como Event y Place)
-- GeoSPARQ
+- GeoSPARQL
 - Event ontology (http://motools.sourceforge.net/event/event.html)
 
 Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella. </rdfs:comment>
