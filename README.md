@@ -10,7 +10,7 @@ Por tanto, se pretende con esto llevar un control de cambios entre versiones.
 ### Lista de cambios:
 * [10/03/2018] Actualización de referencias a las URIs donde se encuentra publicada la última versión.
 * [07/05/2018] Aceptado pull request de OnToology para la generación de documentación [[OnToology update #2]](https://github.com/opencitydata/cultura-ocio-agenda-eventos-actividades/pull/2)
-* [16/05/2018] Documentación regenerada a la última versión.
+* [16/05/2018] Documentación regenerada a la última versión y añadidos ejemplos de uso.
 
 A continuación se muestran también los datos originales obtenidos del grupo de trabajo OjoAlData100, que identificó este vocabulario como uno de los prioritarios.
 
