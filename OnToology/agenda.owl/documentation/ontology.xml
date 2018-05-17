@@ -394,6 +394,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda">
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-25</dc:date>
         <dc:title xml:lang="es">Vocabulario para la representación de datos sobre eventos en una agenda cultural</dc:title>
+        <dc:title xml:lang="es">Vocabulario para la representación de eventos de una agenda cultural</dc:title>
     </owl:NamedIndividual>
     
 

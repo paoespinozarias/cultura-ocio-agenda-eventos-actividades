@@ -242,7 +242,8 @@ xsd:time rdf:type rdfs:Datatype .
 ###  http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> rdf:type owl:NamedIndividual ;
                                                                    <http://purl.org/dc/elements/1.1/date> "2014-06-25"^^xsd:dateTime ;
-                                                                   <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre eventos en una agenda cultural"@es .
+                                                                   <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre eventos en una agenda cultural"@es ,
+                                                                                                           "Vocabulario para la representación de eventos de una agenda cultural"@es .
 
 
 ###  http://www.geonames.org/ontology#A
