@@ -233,6 +233,7 @@
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> <http://purl.org/dc/elements/1.1/date> "2014-06-25"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representaci\u00F3n de datos sobre eventos en una agenda cultural"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representaci\u00F3n de eventos de una agenda cultural"@es .
 # 
 # http://www.geonames.org/ontology#A
 <http://www.geonames.org/ontology#A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
