@@ -65,6 +65,10 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
         <dc:creator>Antonio Ibáñez (Junta de Castilla y León)</dc:creator>
         <dc:identifier>http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda</dc:identifier>
         <dc:title xml:lang="es">Vocabulario para la representación de eventos de una agenda cultural</dc:title>
+		<dc:description>Este vocabulario se utiliza para la descripción de eventos pertenecientes a la agenda cultural de una ciudad española. Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org (concretamente, conceptos como Event y Place)
+- GeoSPARQL
+- Event ontology (http://motools.sourceforge.net/event/event.html)</dc:description>
         <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <owl:imports rdf:resource="http://purl.org/NET/c4dm/event.owl"/>
         <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda.html"/>
