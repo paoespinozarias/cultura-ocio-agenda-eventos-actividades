@@ -102,6 +102,9 @@
     "hasFormat" : {
       "@id" : "http://purl.org/dc/terms/hasFormat"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "Evento" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento"
     },

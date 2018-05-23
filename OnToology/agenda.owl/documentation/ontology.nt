@@ -232,6 +232,7 @@
 # http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> <http://purl.org/dc/elements/1.1/date> "2014-06-25"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> <http://purl.org/dc/elements/1.1/description> "Este vocabulario se utiliza para la descripci\u00F3n de eventos pertenecientes a la agenda cultural de una ciudad espa\u00F1ola. Reutiliza t\u00E9rminos de varios vocabularios y modelos que actualmente se utilizan para prop\u00F3sitos similares (y por tanto se ir\u00E1 actualizando de acuerdo con la evoluci\u00F3n de estos vocabularios), incluyendo:\n- schema.org (concretamente, conceptos como Event y Place)\n- GeoSPARQL\n- Event ontology (http://motools.sourceforge.net/event/event.html)" .
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representaci\u00F3n de datos sobre eventos en una agenda cultural"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representaci\u00F3n de eventos de una agenda cultural"@es .
 # 

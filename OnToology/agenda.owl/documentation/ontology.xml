@@ -393,6 +393,10 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda">
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-25</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Este vocabulario se utiliza para la descripción de eventos pertenecientes a la agenda cultural de una ciudad española. Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org (concretamente, conceptos como Event y Place)
+- GeoSPARQL
+- Event ontology (http://motools.sourceforge.net/event/event.html)</dc:description>
         <dc:title xml:lang="es">Vocabulario para la representación de datos sobre eventos en una agenda cultural</dc:title>
         <dc:title xml:lang="es">Vocabulario para la representación de eventos de una agenda cultural</dc:title>
     </owl:NamedIndividual>
