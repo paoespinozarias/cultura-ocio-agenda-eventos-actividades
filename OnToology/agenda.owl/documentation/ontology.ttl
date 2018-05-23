@@ -242,6 +242,10 @@ xsd:time rdf:type rdfs:Datatype .
 ###  http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> rdf:type owl:NamedIndividual ;
                                                                    <http://purl.org/dc/elements/1.1/date> "2014-06-25"^^xsd:dateTime ;
+                                                                   <http://purl.org/dc/elements/1.1/description> """Este vocabulario se utiliza para la descripción de eventos pertenecientes a la agenda cultural de una ciudad española. Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org (concretamente, conceptos como Event y Place)
+- GeoSPARQL
+- Event ontology (http://motools.sourceforge.net/event/event.html)"""^^xsd:string ;
                                                                    <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre eventos en una agenda cultural"@es ,
                                                                                                            "Vocabulario para la representación de eventos de una agenda cultural"@es .
 
