@@ -16,8 +16,15 @@
                                                                                                               "José Luis Cano (Ayuntamiento de Madrid)"^^xsd:string ,
                                                                                                               "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"^^xsd:string ,
                                                                                                               "Sonia Castro (red.es)"^^xsd:string ;
+                                                                    <http://purl.org/dc/elements/1.1/date> "2014-06-25"^^xsd:dateTime ;
+                                                                    <http://purl.org/dc/elements/1.1/description> """Este vocabulario se utiliza para la descripción de eventos pertenecientes a la agenda cultural de una ciudad española. Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org (concretamente, conceptos como Event y Place)
+- GeoSPARQL
+- Event ontology (http://motools.sourceforge.net/event/event.html)"""^^xsd:string ;
                                                                     <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"^^xsd:string ;
                                                                     <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)"^^xsd:string ;
+                                                                    <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre eventos en una agenda cultural"@es ,
+                                                                                                            "Vocabulario para la representación de eventos de una agenda cultural"@es ;
                                                                     <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda.html> ,
                                                                                                          <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda-content/0.1/agenda.owl> ;
                                                                     <http://purl.org/dc/terms/issued> "2014-03-06"^^xsd:dateTime ;
@@ -65,6 +72,10 @@ xsd:time rdf:type rdfs:Datatype .
 #################################################################
 #    Object Properties
 #################################################################
+
+###  http://purl.org/NET/c4dm/event.owl#place
+<http://purl.org/NET/c4dm/event.owl#place> rdf:type owl:ObjectProperty .
+
 
 ###  http://schema.org/location
 <http://schema.org/location> rdf:type owl:ObjectProperty .
@@ -209,6 +220,10 @@ xsd:time rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
+###  http://purl.org/NET/c4dm/event.owl#Event
+<http://purl.org/NET/c4dm/event.owl#Event> rdf:type owl:Class .
+
+
 ###  http://schema.org/Event
 <http://schema.org/Event> rdf:type owl:Class .
 
@@ -240,14 +255,7 @@ xsd:time rdf:type rdfs:Datatype .
 #################################################################
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda
-<http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> rdf:type owl:NamedIndividual ;
-                                                                   <http://purl.org/dc/elements/1.1/date> "2014-06-25"^^xsd:dateTime ;
-                                                                   <http://purl.org/dc/elements/1.1/description> """Este vocabulario se utiliza para la descripción de eventos pertenecientes a la agenda cultural de una ciudad española. Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
-- schema.org (concretamente, conceptos como Event y Place)
-- GeoSPARQL
-- Event ontology (http://motools.sourceforge.net/event/event.html)"""^^xsd:string ;
-                                                                   <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre eventos en una agenda cultural"@es ,
-                                                                                                           "Vocabulario para la representación de eventos de una agenda cultural"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#A
