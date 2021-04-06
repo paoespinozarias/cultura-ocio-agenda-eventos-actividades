@@ -1,39 +1,34 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#"
      xml:base="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ns1="http://creativecommons.org/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda">
         <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda/0.1"/>
         <owl:imports rdf:resource="http://purl.org/NET/c4dm/event.owl"/>
-        <ns:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonio Ibáñez (Junta de Castilla y León)</dc:creator>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calixto Mellen (SEGITTUR)</dc:creator>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">José Ignacio Sánchez (red.es)</dc:creator>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">José Luis Cano (Ayuntamiento de Madrid)</dc:creator>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sonia Castro (red.es)</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-25</dc:date>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Este vocabulario se utiliza para la descripción de eventos pertenecientes a la agenda cultural de una ciudad española. Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
-- schema.org (concretamente, conceptos como Event y Place)
-- GeoSPARQL
-- Event ontology (http://motools.sourceforge.net/event/event.html)</dc:description>
-        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda</dc:identifier>
-        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
-        <dc:title xml:lang="es">Vocabulario para la representación de datos sobre eventos en una agenda cultural</dc:title>
-        <dc:title xml:lang="es">Vocabulario para la representación de eventos de una agenda cultural</dc:title>
+        <ns1:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dc:creator>Antonio Ibáñez (Junta de Castilla y León)</dc:creator>
+        <dc:creator>Calixto Mellen (SEGITTUR)</dc:creator>
+        <dc:creator>José Ignacio Sánchez (red.es)</dc:creator>
+        <dc:creator>José Luis Cano (Ayuntamiento de Madrid)</dc:creator>
+        <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
+        <dc:creator>Sonia Castro (red.es)</dc:creator>
+        <dc:identifier>http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda</dc:identifier>
+        <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda.html"/>
         <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda-content/0.1/agenda.owl"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-06</terms:issued>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Este vocabulario se utiliza para la descripción de eventos pertenecientes a la agenda cultural de una ciudad española. Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+        <rdfs:comment>Este vocabulario se utiliza para la descripción de eventos pertenecientes a la agenda cultural de una ciudad española. Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
 - schema.org (concretamente, conceptos como Event y Place)
 - GeoSPARQL
 - Event ontology (http://motools.sourceforge.net/event/event.html)
@@ -56,10 +51,52 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     
 
 
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasFormat -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasFormat"/>
+    
+
+
     <!-- http://purl.org/dc/terms/issued -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
 
 
@@ -122,13 +159,6 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     
 
 
-    <!-- http://purl.org/NET/c4dm/event.owl#place -->
-
-
-    <owl:ObjectProperty rdf:about="http://purl.org/NET/c4dm/event.owl#place"/>
-    
-
-
     <!-- http://schema.org/location -->
 
 
@@ -172,7 +202,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-25</terms:issued>
         <rdfs:comment xml:lang="es">Servicio municipal encargado del evento</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">servicio municipal</rdfs:label>
+        <rdfs:label>servicio municipal</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -197,7 +227,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#tipoEvento">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-06-25</terms:issued>
+        <terms:issued>2014-06-25</terms:issued>
         <rdfs:comment xml:lang="es">Tipo de evento, de acuerdo con alguna clasificación SKOS, por ejemplo, http://datos.zaragoza.es/api/kos/cultura-ocio/agenda/tema/1612, que define los eventos de tipo Pop/Rock</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"/>
         <rdfs:label xml:lang="es">tipo de evento</rdfs:label>
@@ -211,7 +241,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#tipoPublico">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-03-06</terms:issued>
+        <terms:issued>2015-03-06</terms:issued>
         <rdfs:comment xml:lang="es">Tipo de público, de acuerdo con alguna clasificación SKOS. Por ejemplo, http://datos.localidata.com/api/alcobendas/kos/commons/tipoPublico/infancia-y-adolescencia</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"/>
         <rdfs:label xml:lang="es">tipo de público</rdfs:label>
@@ -225,7 +255,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#equipamiento">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/NET/c4dm/event.owl#place"/>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/location"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-03-06</terms:issued>
+        <terms:issued>2015-03-06</terms:issued>
         <rdfs:comment xml:lang="es">Equipamiento (por ejemplo, edificio de la ciudad) en el que se realiza un evento</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento"/>
         <rdfs:label xml:lang="es">equipamiento</rdfs:label>
@@ -271,7 +301,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#fechaFin">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-03-06</terms:issued>
+        <terms:issued>2015-03-06</terms:issued>
         <rdfs:comment xml:lang="es">Fecha de fin de un evento</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"/>
         <rdfs:label xml:lang="es">fecha de fin</rdfs:label>
@@ -285,7 +315,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#fechaInicio">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-03-06</terms:issued>
+        <terms:issued>2015-03-06</terms:issued>
         <rdfs:comment xml:lang="es">Fecha de inicio de un evento</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"/>
         <rdfs:label xml:lang="es">fecha de inicio</rdfs:label>
@@ -299,7 +329,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#horaFin">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-03-06</terms:issued>
+        <terms:issued>2015-03-06</terms:issued>
         <rdfs:comment xml:lang="es">Hora de fin de un evento</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"/>
         <rdfs:label xml:lang="es">hora de fin</rdfs:label>
@@ -314,7 +344,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
         <rdfs:subPropertyOf rdf:resource="http://schema.org/doorTime"/>
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-03-06</terms:issued>
+        <terms:issued>2015-03-06</terms:issued>
         <rdfs:comment xml:lang="es">Hora de inicio de un evento</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"/>
         <rdfs:label xml:lang="es">hora de inicio</rdfs:label>
@@ -346,13 +376,6 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     
 
 
-    <!-- http://purl.org/NET/c4dm/event.owl#Event -->
-
-
-    <owl:Class rdf:about="http://purl.org/NET/c4dm/event.owl#Event"/>
-    
-
-
     <!-- http://schema.org/Event -->
 
 
@@ -373,7 +396,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento">
         <rdfs:subClassOf rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
         <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-06-25</terms:issued>
+        <terms:issued>2014-06-25</terms:issued>
         <rdfs:comment xml:lang="es">Evento que puede aparecer en una agenda cultural</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"/>
         <rdfs:label xml:lang="es">Evento</rdfs:label>
@@ -410,7 +433,15 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <!-- http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda"/>
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-25</dc:date>
+        <dc:description>Este vocabulario se utiliza para la descripción de eventos pertenecientes a la agenda cultural de una ciudad española. Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org (concretamente, conceptos como Event y Place)
+- GeoSPARQL
+- Event ontology (http://motools.sourceforge.net/event/event.html)</dc:description>
+        <dc:title xml:lang="es">Vocabulario para la representación de datos sobre eventos en una agenda cultural</dc:title>
+        <dc:title xml:lang="es">Vocabulario para la representación de eventos de una agenda cultural</dc:title>
+    </owl:NamedIndividual>
     
 
 
@@ -484,15 +515,15 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RDF</rdfs:label>
+        <rdfs:label>RDF</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTML</rdfs:label>
+        <rdfs:label>HTML</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
 
 
